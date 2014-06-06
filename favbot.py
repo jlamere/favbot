@@ -3,10 +3,10 @@ import tweepy
 
 #Tweet Part : collect past 20 tweets via the twitter api with help from tweepy
 # write your key and secret
-consumer_key = 'RASWKDC5cbzlJAdXVkQ65wNNf'
-consumer_secret = 'Z0EmrLswOFxCyyDzp7u7spu1Qq7h5kJ9jsztW2btJ4BdgrJJuy'
-oauth_token = '24994596-U32WhPf4Xi7YaKIY77G9Jg1kXDQCoU90n4ZGzMsr4'
-oauth_token_secret = '0EGYYiKiIeiQOBOyQDqhMvUEghXNiQoqfjpmCf3yIurpT'
+consumer_key = 'your '
+consumer_secret = 'keys'
+oauth_token = 'placed'
+oauth_token_secret = 'here'
 
 # create Api instance
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
