@@ -17,7 +17,6 @@ def search_tweets():
     return api.user_timeline(count=20, screen_name = "tkloumo", trim_user=True, include_rts=False)
 
 def fav_tweet(tweet):
-    print tweet.id
     try:
       api.create_favorite(tweet.id)
       return
@@ -27,9 +26,6 @@ def fav_tweet(tweet):
 
 def main():
     result = search_tweets()
-    for tweet in result:
-      print tweet.text
-    success = 0
     for tweet in result:
         fav_tweet(tweet)
 
